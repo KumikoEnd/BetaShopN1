@@ -39,7 +39,7 @@
 			<div class="form-fila">
 			<label>Descripción del producto</label>
 			<textarea name=""></textarea>
-			<input type="file" name="img" id="subir-img">
+			<input type="file" name="img" id="subir-img" accept="image/*">
 			<input type="submit" name="enviar">
 			</div>
 		</form>
