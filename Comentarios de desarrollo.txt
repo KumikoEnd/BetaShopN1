@@ -1,1 +1,14 @@
 ucp = User Control panel
+
+Niveles de privilegio {
+1 = Usuario comun
+2 = Vendedor
+8 = Moderador
+10 = Admin
+}
+
+Errores {
+0 = Correo o Contraseña vacio.
+1 = Contraseña Incorrecta.
+2 = Usuario Inexistente.
+}

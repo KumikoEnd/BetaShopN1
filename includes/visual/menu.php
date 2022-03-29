@@ -1,5 +1,5 @@
 <?php
-$menudb = "SELECT name, link, type FROM menu";
+$menudb = "SELECT * FROM menu";
 $menucon = $conn->query($menudb);
 ?>
 <ul class="menu">

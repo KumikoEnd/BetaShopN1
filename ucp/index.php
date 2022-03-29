@@ -7,23 +7,32 @@ include("../includes/visual/header.php");
 ?>
 <?php
 if(isset($_SESSION["user"])){
-	
+	 //Datos del usuario logeado
 ?>
-	Contenido mostrado a logeados
+	<!--Logeado -->
+	<section class="main">
+	<span>Bienvenido de vuelta <?php echo $usuario['nombre'];?></span>
+	
+	
+	
+	</section>
+	
+	<!-- Fin logeado -->
 	<?php
 }else{
 ?>
-Contenido mostrado a no logeados
+	<!--No logeado -->
 
+
+<section class="main">
+	<div class="produc">
 <?php
 include("logform.php");
 ?>
-<section class="main">
-	<div class="produc">
-
 
 	</div>
 </section>
+<!-- Fin no logeado -->
 <?php
 }
 ?>
