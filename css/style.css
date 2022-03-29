@@ -1,0 +1,157 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.header{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding: 10px 0px;
+	border:1px solid black;
+}
+
+.logo{
+	font-size: 50px;
+	color:red;
+}
+.menu{
+	display:flex;
+	justify-content:space-around;
+}
+.menu li{
+	border-radius:5px;
+	border:1px solid black;
+	margin: 0px 10px;
+}
+.menu li a{
+	padding:5px;
+}
+.iconos img{
+	margin: 0px 5px;
+}
+
+.main{
+	display:flex;
+	flex-direction:column;
+	padding:10px;
+}
+.princi{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	margin-top:50px; 
+}
+.princi h2{
+	text-align:center;
+	width:100%;
+}
+.princi img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	margin:0px 0px;
+}
+.princi-div{
+	width:210px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	margin:0px 30px;
+}
+.princi-div p{
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+}
+.produc{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin-top:70px; 
+}
+.produc h2{
+	text-align: center;
+	width:100%;
+}
+.card{
+	max-width:300px;
+	border:1px solid black;
+	margin: 0px 10px;
+}
+.img-produ{
+	width:100%;
+}
+.corazon{
+	width:30px;
+}
+.c-p{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding: 0px 10px;
+}
+.c-p div{
+	display:flex;
+	align-items:center;
+}
+.card h3{
+	padding-left:10px;
+}
+.card p{
+	padding:10px;
+}
+/*---------vender---------*/
+
+.subir-producto{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+.subir-producto-div{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+	width:40%;
+	border:1px solid black;
+	margin-top:100px;
+	padding:10px;
+}
+form {
+	display:block;
+	width:100%;
+}
+form input,label{
+	width:100%;
+	display:block;
+	margin:5px 0px;
+}
+textarea{
+	resize:none;
+	height:100px;
+	width:100%;
+}
+.form-col{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.form-fila{
+	display:flex;
+	flex-direction:column;
+	/*width:100%;*/
+	align-items:center;
+	text-align:center;
+}
+#subir-img{
+	width: 50%
+}
