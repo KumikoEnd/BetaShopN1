@@ -1,8 +1,4 @@
-*{
-	box-sizing:border-box;
-	padding:0;
-	margin:0;
-}
+
 ul,ol{
 	list-style:none;
 }
@@ -130,6 +126,16 @@ form {
 	display:block;
 	width:100%;
 }
+.pageform{
+	padding: 70px 0;
+width:50%;
+margin-left:20%;
+}
+.site.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 form input,label{
 	width:100%;
 	display:block;
@@ -154,4 +160,133 @@ textarea{
 }
 #subir-img{
 	width: 50%
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	list-style:none;
+}
+body{
+	background-image:url(../img/collage.jpg);
+	background-repeat:repeat;
+	/background-size:cover;/
+	width:100%;
+	height:100%;
+	/display:flex;/
+
+}
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+.site-content{
+	position:fixed;
+	text-align: center;
+	left:170px;
+	top:90px;
+	right:10px;
+	bottom:10px;
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: lightgray;
+}
+.conten-logo-p span{
+	color:white;
+	font-size:1.5em;
+}
+.logo-inicio-p{
+	width: 40%;
+	padding: 0px 0px;
+}
+#barras{
+	display: none;
+}
+#lista{
+	margin:10px;
+}
+.lista-li{
+	color:white;
+	padding:5px 0;
+	cursor:pointer;
+}
+.lista-li a{
+	text-decoration:none;
+	color:white;
+}
+
+.main{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	width:100%;
+	padding:30px 0;
+
+}
+.main-div{
+	background-color:white;
+	width:60%;
+	padding:30px;
+}
+.main-div-a{
+	background-color:white;
+	width:60%;
+	padding:30px;
+}
+.main-form{
+	
+	border: 1px solid gray;
+	margin:5px;
+		
+}
+.main-form label{
+	display:block;
+	padding:5px;
+}
+.main-form input{
+	display:block;
+	margin:5px;
+	padding:5px;
+}
+.titulo{
+	
+	padding-top:10px;
+}
+.img-pre{
+	width:100%;
+	max-width:700px;
+	padding: 20px;
+	margin:auto;
+}
+.div-img{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.btn-publi{
+	background-color:#7209B7;
+	position:absolute;
+	top:30px; 
+	right:70px;
+	padding:5px 10px;
+	border:none;
+	
+
+}
+.btn-publi a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	cursor:pointer;
 }

@@ -1,7 +1,4 @@
-<?php
-$menudb = "SELECT * FROM menu";
-$menucon = $conn->query($menudb);
-?>
+
 <ul class="menu">
 <?php
 while($menu = $menucon->fetch_assoc()){

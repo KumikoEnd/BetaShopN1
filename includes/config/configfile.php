@@ -15,6 +15,11 @@ $errorlist = array(
 "<span ><font color='red'>Error 0: Correo o contraseña vacios.</font></span><br>",
 "<span ><font color='red'>Error 1: Contraseña Incorrecta.</font></span><br>",
 "<span ><font color='red'>Error 2: Usuario Inexistente.</font></span><br>"
-)
+);
+
+
+
+$menudb = "SELECT * FROM menu";
+$menucon = $conn->query($menudb);
 
 ?>

@@ -21,7 +21,6 @@
 		<?php
 		if(isset($_SESSION["user"])){
 		include($_SERVER['DOCUMENT_ROOT']."/".$conf["opdir"]."/ucp/uincludes/userdata.php");
-		echo "<p>".$usuario['nombre']."<br>";
 		echo "<a href='".$rlink."ucp/logout.php'>Cerrar Sesion</a></p>";
 		}
 		?>
